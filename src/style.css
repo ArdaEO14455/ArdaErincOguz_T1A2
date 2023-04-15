@@ -102,7 +102,7 @@ main article p {
     font-size: 1.5rem
 }
 
-/* My Skills */
+/* My Skills Page*/
 
 #career {
     display: flex;
@@ -114,6 +114,7 @@ main h1 {
     padding: 1rem;
     background: #825b9c;
     margin-bottom: 1rem;
+    text-align: center;;
 }
 #career article {
     display: flex;
@@ -125,7 +126,7 @@ main h1 {
 }
 
 
-#career img {
+#career article img {
     width: 30%
 }
 
@@ -148,15 +149,14 @@ summary {
 #resume, h2 {
     align-self: center;
     
+    
 }
     
 /* Social Links */
 
 #socialmedia {
     background-color: #825b9c;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
 #socialmedia a {
@@ -213,10 +213,9 @@ details {
         #portrait {
             width: 22%
         }
-    }
-
-    #career article img {
-        width:10%;
+        #career article img {
+            width:10%;
+        }
     }
 
 /* Animations */
