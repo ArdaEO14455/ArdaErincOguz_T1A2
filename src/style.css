@@ -51,6 +51,7 @@ header {
 }
 /* Header - Nav Bar */
 nav {
+    background: #4a4a48;
     display: flex;
     flex-direction:row;
     width: 100%;
@@ -58,7 +59,8 @@ nav {
     height: 100%
      
 }
-main nav a {
+
+.navlink {
     background-color: 4a4a48;
     width: 30%;
     border: solid 1px ;
@@ -109,7 +111,7 @@ main article p {
     flex-direction: column;
 }
 
-main h1 {
+.welcome {
     font-size: 1rem;
     padding: 1rem;
     background: #825b9c;
