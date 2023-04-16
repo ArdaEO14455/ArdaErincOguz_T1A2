@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
-
+/* General Styling */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,10 +19,9 @@ header {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1rem 0 1.5 rem;
+    padding: 1rem 0 1.5rem;
 }
 
-/* Header - Title */
 #title {
     display: flex;
     flex-direction: row;
@@ -30,7 +29,6 @@ header {
     background-color: #4a4a48;
     padding: 0.5rem;
     align-items: center;
-    background-color: 4a4a48;
 }
 #logo {
     display:flex;
@@ -42,14 +40,11 @@ header {
 
 #title h1 {
     color: #825b9c;
-    font-size: rem;
     width: 100%;
     text-align: center;
-    background: 1;
-    /* margin: 1rem */
 
 }
-/* Header - Nav Bar */
+/* Nav Bar */
 nav {
     background: #4a4a48;
     display: flex;
@@ -61,7 +56,6 @@ nav {
 }
 
 .navlink {
-    background-color: 4a4a48;
     width: 30%;
     border: solid 1px ;
     text-decoration: none;
@@ -72,7 +66,7 @@ nav {
     
 }
 
-/*Header - Background */
+/* Background */
 #background {
     background: url(mountain.PNG) no-repeat right 33%;
     background-size: cover;
@@ -90,34 +84,35 @@ nav {
     margin-right: auto; 
 }
 
-/* Homepage - Introduction */
+/* Homepage Styles */
 main {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(#4a4a48, #825b9c);
 }
 
-main article p {
+#welcome p {
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 1rem;
-    font-size: 1.5rem
+    font-size: 1rem
 }
 
-/* My Skills Page*/
+/* My Story Page Styles*/
+
+#storyoverview {
+    background: #825b9c;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
 
 #career {
     display: flex;
     flex-direction: column;
 }
 
-.welcome {
-    font-size: 1rem;
-    padding: 1rem;
-    background: #825b9c;
-    margin-bottom: 1rem;
-    text-align: center;;
-}
+
 #career article {
     display: flex;
     flex-direction: column;
@@ -126,7 +121,6 @@ main article p {
     border-bottom: solid 0.2rem black;
     padding: 0.5rem
 }
-
 
 #career article img {
     width: 30%
@@ -147,11 +141,58 @@ summary {
     font-size: 1rem;
     
 }
-/* Resume Link */
+/* My Story - Resume Link */
 #resume, h2 {
     align-self: center;
     
     
+}
+
+/* My Blog Styles */
+
+#blogs {
+    margin: 1rem;
+}
+#blogintro {
+    font-size: 1rem;
+    padding: 1rem;
+    background: #825b9c;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.blogpost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogpost img {
+    width: 50%;
+    align-self: center;
+}
+#blogs h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#blogs article {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #7b7b78;
+    animation:edge-glow 2s infinite alternate;
+}
+
+#blogs p {
+    font-size: 1rem;
+}
+/* Contact Me Styles */
+
+.contact {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    background: #825b9c;
 }
     
 /* Social Links */
@@ -170,7 +211,7 @@ footer {
 }
 
 
-/* Tablet */
+/* General - Tablet Styles */
 
 @media only screen and (min-width: 550px) {
     #portrait{
@@ -182,7 +223,8 @@ footer {
     #title h1{
         font-size: 2rem;
     }
-/* My Story - Career Section */
+
+/* My Story - Tablet */
 #career article {
     flex-direction: row;
     margin: 1rem;
@@ -192,6 +234,8 @@ footer {
     flex-direction: row-reverse;
     
 }
+
+
 #career article img {
     width:20%;
 }
@@ -200,25 +244,74 @@ details {
 }
 }
 
+
+/* My Blog - Tablet */
+
+    .blogpost {
+        flex-direction: row
+    }
+
+    #blogs article:nth-child(2n) {
+        flex-direction: row-reverse;
+    }
+
+    .blogpost img {
+        width: 30%;
+    }
+
+    .blogpost div {
+        width: 70%;
+        margin: 1rem;
+    }
+    .blogpost footer {
+        margin: 1rem;
+        text-align: start;
+    }
+
+/* General Desktop Styles */
 @media only screen and (min-width: 900px) {
     #portrait {
         width: 35%
     }
 
+    /* Home - Desktop */
+    #welcome p {
+        font-size: 1.5rem
+    }
+ 
+/* My Story - Desktop */
+    #career article img {
+        width:10%;
+    }
+    
     summary {
         font-size: 1.5rem;
     }
-    
+
+    #career article p {
+        width: 100%;
+        font-size: 1.5rem;
     }
-/* Desktop */
+
+
+/* My Blog - Desktop */
+    .blogpost img {
+    width: 10%;
+    }
+/* Contact Me - Desktop */
+    #contactbackground {
+        align-self: center;
+        width: 50%
+    }
+}
     @media only screen and (min-width: 1300px) {
         #portrait {
             width: 22%
         }
-        #career article img {
-            width:10%;
-        }
+
+
     }
+
 
 /* Animations */
 @keyframes glow {
@@ -237,3 +330,21 @@ details {
         color: rgb(241, 198, 132) ;
     }
     }
+
+
+@keyframes edge-glow {
+        0% {
+            border: solid 2px rgb(0, 217, 255) ;
+    
+        }
+        50%{
+            border: solid 2px rgb(209, 230, 23) ;
+        }
+    
+        75% {
+            border: solid 2px rgb(137, 238, 124);
+        }
+        100%{
+            border: solid 2px rgb(241, 198, 132) ;
+        }
+        }

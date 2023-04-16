@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>Arda Erinc Oguz - Portfolio</title>
         <link rel="icon" type="image/x-icon" href="icon.png">
         <link rel="stylesheet" href="style.css">
@@ -19,7 +19,7 @@
         <header id="background">
 
 <!-- Portrait-->
-<img id="portrait" src="portrait.jpg" alt="portrait" /> 
+<img id="portrait" src="portrait.jpg" alt="portrait" > 
 
         </header>
         
@@ -28,49 +28,60 @@
         <Nav>
             <a class="navlink" href="index.html">Home</a>
             <a class="navlink" href="mystory.html">My Story</a>
-            <a class="navlink" href="myskills.html">My Skills</a>
             <a class="navlink" href="blogs.html">My Blog</a>
+    <a class="navlink" href="contact.html">Contact Me</a>
         </Nav>
         <main>
-    <h1 class="welcome"> Welcome to my Blog! You'll find below some of my posts, including my favourite mantras, speeches and such.  </h1>
+    <h1 id="blogintro"> Welcome to my Blog! You'll find below some of my posts, including my favourite mantras, speeches and such.  </h1>
 
-    <section id="Blogs">
-        <article id="blog1">
-            <h1> Good Ol Lorem - 10 second read (if you can understand latin)</h1>
+    <section id="blogs"> 
+        <article class="blogpost">
+            <img src="statue.png" alt="statue">
+            <!-- Utilized <div> to wrap the text of the blog, and maneuver the image around more easily -->
+            <div >
+            <h1> Lorem Ipsum - 25/03/2017</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae repellendus dolor saepe, minus, necessitatibus culpa quae odit voluptate ut praesentium inventore quo omnis, quos porro vero provident ipsam placeat!</p>
-            <footer>by Arda Erinc Oguz (unlikely) - 12/04/2023</footer>
+            <footer>- Arda Erinc Oguz</footer>
+        </div>
         </article>
 
-        <article id="blog2">
-            <h1> The Potential of Towels</h1>
+        <article class="blogpost">
+            <img src="towel.png" alt="towel">
+            <div >
+            <h1> The Potential of Towels - 11/07/2019</h1>
             <p>
                 “A towel, [The Hitchhiker's Guide to the Galaxy] says, is about the most massively useful thing an interstellar hitchhiker can have. Partly it has great practical value. You can wrap it around you for warmth as you bound across the cold moons of Jaglan Beta; you can lie on it on the brilliant marble-sanded beaches of Santraginus V, inhaling the heady sea vapors; you can sleep under it beneath the stars which shine so redly on the desert world of Kakrafoon; use it to sail a miniraft down the slow heavy River Moth; wet it for use in hand-to-hand-combat; wrap it round your head to ward off noxious fumes or avoid the gaze of the Ravenous Bugblatter Beast of Traal (such a mind-boggingly stupid animal, it assumes that if you can't see it, it can't see you); you can wave your towel in emergencies as a distress signal, and of course dry yourself off with it if it still seems to be clean enough.”</p>
             <footer> Hitchikers Guide to the Galaxy - 1979</footer>
+            </div>
 
         </article>
 
-        <article id="blog3">
-            <h1>The Tragedy of Darth Plagueis the Wise</h1>
+        <article class="blogpost">
+            <img src="palpatine.png" alt="alt">
+            <div >
+            <h1>The Tragedy of Darth Plagueis the Wise - 30/09/2020</h1>
             <p>"Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself."</p>
-            <footer>by Chancellor Sheev Palpatine - 22 BBY</footer>
-
+            <footer>- Chancellor Sheev Palpatine - 22 BBY</footer>
+            </div>
         </article>
 
-        <article id="blog4">
-            <h1>V</h1>
-        <p>But on this most auspicious of nights, permit me then, in lieu of the more commonplace soubriquet, to suggest the character of this dramatis persona. Voila! In view humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of fate. This visage, no mere veneer of vanity, is a vestige of the “vox populi” now vacant, vanished. However, this valorous visitation of a bygone vexation stands vivified, and has vowed to vanquish these venal and virulent vermin, van guarding vice and vouchsafing the violently vicious and voracious violation of volition. The only verdict is vengeance; a vendetta, held as a votive not in vain, for the value and veracity of such shall one day vindicate the vigilant and the virtuous. Verily this vichyssoise of verbiage veers most verbose, so let me simply add that it’s my very good honour to meet you and you may call me V.</p>
-        <footer> V - 2028 (suspected) </footer>
+        <article class="blogpost">
+            <img src="v.png" alt="mask">
+                <div >
+                    <h1>V - 01/05/2021</h1>
+                         <p>"But on this most auspicious of nights, permit me then, in lieu of the more commonplace soubriquet, to suggest the character of this dramatis persona. Voila! In view humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of fate. This visage, no mere veneer of vanity, is a vestige of the “vox populi” now vacant, vanished. However, this valorous visitation of a bygone vexation stands vivified, and has vowed to vanquish these venal and virulent vermin, van guarding vice and vouchsafing the violently vicious and voracious violation of volition. The only verdict is vengeance; a vendetta, held as a votive not in vain, for the value and veracity of such shall one day vindicate the vigilant and the virtuous. Verily this vichyssoise of verbiage veers most verbose, so let me simply add that it’s my very good honour to meet you and you may call me V."</p>
+                    <footer> - V - circa 2028 </footer>
+                </div>
+                
         </article>
 
-        <article id="blog5">
-            <h1> Fun and Sandcastles</h1>
-            <p> If you’ve read my resume on the ‘My Story’ page, you may have noticed that I’ve jumped around a few career paths. Not necessarily very many, but certainly in directions very polar to one another: science, recruitment, finance, hospitality, and now look at me - web development!<p>
-
-            <p>It may very well be too soon to tell, but I’ve noticed something in this that I haven't in many of the other career attempts: this is kind of fun. And by that i dont mean its fun how easy it is, by god it is intense, challenging and frustrating to no end: To see your page you worked so hard towards become scrambled, and destroyed after one misplaced semicolon is very daunting. But it's also rewarding in its own way: to get to a point that you see your page scrambled, but to be able to look at the muddled components and to be able to decipher what is tripping over what. And then to make changes <strong>with intention</strong> and belief that those changes would restore things. And then to see the elements behave as you had wished them to… it's satisfying, and kind of like magic. </p>
-                
-            <p>Learning the potential of being able to do so much instils a similar enthusiasm, curiosity and inquisitiveness that I can only describe as ‘a twelve-year-old discovers the transitions in PowerPoint.’ suddenly you want to implement them all: have your text glow, and spin and fly, make the background your favourite gif, put a link to a rickroll (have I put one in this website or havent I?). I guess another way to describe it is being in a sandbox, but in this one you gotta remember to put your semicolons or your sandcastle will crumble.</p>
-                
-            <p> hope that I can continue to engage with this path as I have with this website: The stress, the frustration, the fun and the magic.</p>
+        <article class="blogpost">
+            <img src="sandcastle.png" alt="sandcastle">
+            <div>
+            <h1> Fun and Sandcastles - 12/04/2023</h1>
+            <p> If you’ve read my resume on the ‘My Story’ page, you may have noticed that I’ve jumped around a few career paths. Not necessarily very many, but certainly in directions very polar to one another: science, recruitment, finance, hospitality, and now look at me - web development!<br> It may very well be too soon to tell, but I’ve noticed something in this that I haven't in many of the other career attempts: this is kind of fun. And by that i dont mean its fun how easy it is, by god it is intense, challenging and frustrating to no end: To see your page you worked so hard towards become scrambled, and destroyed after one misplaced semicolon is very daunting. But it's also rewarding in its own way: to get to a point that you see your page scrambled, but to be able to look at the muddled components and to be able to decipher what is tripping over what. And then to make changes <strong>with intention</strong> and belief that those changes would restore things. And then to see the elements behave as you had wished them to… it's satisfying, and kind of like magic. <br>Learning the potential of being able to do so much instils a similar enthusiasm, curiosity and inquisitiveness that I can only describe as ‘a twelve-year-old discovers the transitions in PowerPoint.’ suddenly you want to implement them all: have your text glow, and spin and fly, make the background your favourite gif, put a link to a rickroll (have I put one in this website or havent I?). I guess another way to describe it is being in a sandbox, but in this one you gotta remember to put your semicolons or your sandcastle will crumble.<br> I hope that I can continue to engage with this path as I have with this website: The stress, the frustration, the fun and the magic.</p>
+            <footer> - Arda Erinc Oguz </footer>
+            </div>
         </article>
         
     </section>
@@ -81,9 +92,9 @@
         <!-- Social Media -->
     <section id="socialmedia">
         <nav>
-            <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook" /></a>
-            <a href="https://github.com/ArdaEO14455"><img src="github.png" alt="Github" /></a>
-            <a href="https://www.linkedin.com/in/arda-oguz-03a26121b/"><img src="linkedin.png" alt="LinkedIn" /></a>
+            <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook" ></a>
+            <a href="https://github.com/ArdaEO14455"><img src="github.png" alt="Github" ></a>
+            <a href="https://www.linkedin.com/in/arda-oguz-03a26121b/"><img src="linkedin.png" alt="LinkedIn" ></a>
         </nav>
     </section>
     </main>
