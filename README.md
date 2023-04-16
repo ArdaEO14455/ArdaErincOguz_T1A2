@@ -34,5 +34,5 @@ Tech Stack:
 * Style Sheet: CSS
 * Deployment Platform: Vercel
 
-Deployed Website Link: https://ArdaErincOguz-T1A2-chi.vercel.app
+Deployed Website Link: https://arda-erinc-oguz-t1-a2.vercel.app/
 Github Repo: https://github.com/ArdaEO14455/ArdaErincOguz_T1A2
