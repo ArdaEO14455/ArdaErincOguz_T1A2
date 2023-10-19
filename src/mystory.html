@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>Arda Erinc Oguz - Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="icon.png">
+        <link rel="icon" type="image/x-icon" href="./docs/icon.png">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
 <!-- Title -->
 <section id="title">
-    <img src="icon.png" alt="icon">
+    <img src="./docs/icon.png" alt="icon">
     <h1> Arda Erinc Oguz <br> My Story</h1>
 </section>
 
@@ -20,7 +20,7 @@
         <header id="background">
 
 <!-- Portrait-->
-<img id="portrait" src="portrait.jpg" alt="portrait" > 
+<img id="portrait" src="./docs/portrait.jpg" alt="portrait" > 
 
         </header>
 
@@ -29,7 +29,7 @@
         <Nav>
             <a class="navlink" href="index.html">Home</a>
             <a class="navlink" href="mystory.html">My Story</a>
-            <a class="navlink" href="blogs.html">My Blog</a>
+            <a class="navlink" href="projects.html">My Projects</a>
     <a class="navlink" href="contact.html">Contact Me</a>
         </Nav>
     
@@ -37,51 +37,73 @@
 <!-- Using drop-bars to reduce clutter on page, but allowing accessibility with brief summaries -->
     <section id="career">
         <Article>
-            <img src="usyd.png" alt="University of Sydney">
+            <img class="career-icon" src="./docs/usyd.png" alt="University of Sydney">
             <details>
                 <summary>University of Sydney - Bachelor of Science (2016-2022)</summary>
-                <p>I started my study in the summer of 2016, commencing a Bachelor of Medical Science degree with the hopes of pursuing a career in Medicine. However, after some consideration, I realised that that path wasn't meant for me. As such, I transferred to a Bachelor of Science, and began slowly working towards its completion. After a few slow years, I graduated December 2022.</p>     
+                <p class="milestone-description">I started my study in the summer of 2016, commencing a Bachelor of Medical Science degree with the hopes of pursuing a career in Medicine. However, after some consideration, I realised that that path wasn't meant for me. As such, I transferred to a Bachelor of Science, and began slowly working towards its completion. After a few slow years, I graduated December 2022.</p>     
             </details>
         </Article>
 
 
         <Article>
-            <img src="wch.png" alt="The White Cockatoo Hotel">
+            <img class="career-icon" src="./docs/wch.png" alt="The White Cockatoo Hotel">
             <details>
                 <summary>White Cockatoo Hotel - Host (2019-Present)</summary>
-                <p>Parallel to my studies, I worked in a local pub - The White Cockatoo Hotel. This helped to break up my time and provide much needed novelty and diversity. While my time at uni taught me diligence, discipline and wider skills through academia, The White Cockatoo instilled in me a keen ability to communicate, to cooperate and manage not only my time and work, but the expectations of my patrons as well.</p>     
+                <p class="milestone-description">Parallel to my studies, I worked in a local pub - The White Cockatoo Hotel. This helped to break up my time and provide much needed novelty and diversity. While my time at uni taught me diligence, discipline and wider skills through academia, The White Cockatoo instilled in me a keen ability to communicate, to cooperate and manage not only my time and work, but the expectations of my patrons as well.</p>     
             </details>
         </Article>
 
         <Article>
-            <img src="loanbase.png" alt="Loan Base">
+            <img class="career-icon" src="./docs/loanbase.png" alt="Loan Base">
             <details>
                 <summary>Loan Base, Mortgage Broker’s Assistant (2020)</summary>
-                <p>In 2020, I commenced an internship at Loan Base, an independent mortgage broking company, and steadily built up skills before advancing to permanent part-time employment. My role primarily revolved around administrative work related to loan processing. I assisted and helped execute different stages of loan processing, moving them from initial point of contact to full approval, liaising with lenders, clients and regulatory bodies.</p>     
+                <p class="milestone-description">In 2020, I commenced an internship at Loan Base, an independent mortgage broking company, and steadily built up skills before advancing to permanent part-time employment. My role primarily revolved around administrative work related to loan processing. I assisted and helped execute different stages of loan processing, moving them from initial point of contact to full approval, liaising with lenders, clients and regulatory bodies.</p>     
             </details>
         </Article>
 
         <Article>
-            <img src="gj.png" alt="Gorilla Jobs">
+            <img class="career-icon" src="./docs/gj.png" alt="Gorilla Jobs">
             <details>
                 <summary>Gorilla Jobs Recruitment - Recruitment Associate (2022-2023)</summary>
-                <p>While my graduation took place in December 2022, I had actually finished my classes in June 2022, freeing up my time and providing an opportunity to diversify my skill set. In July 2022, I decided to try my hand at recruitment at Gorilla Jobs. There, I recruited Lawyers for firms in Victoria and Queensland, and gained an understanding of human resources: talent identification, acquisition and retention.
+                <p class="milestone-description">While my graduation took place in December 2022, I had actually finished my classes in June 2022, freeing up my time and providing an opportunity to diversify my skill set. In July 2022, I decided to try my hand at recruitment at Gorilla Jobs. There, I recruited Lawyers for firms in Victoria and Queensland, and gained an understanding of human resources: talent identification, acquisition and retention.
                 </p>     
             </details>
         </Article>
 
         <Article>
-            <img src="keyboard.png" alt="Present">
+            <img class="career-icon" src="./docs/coder-academy.jpeg" alt="Wicky">
+            <details>
+                <summary> Coder Academy - Full Stack Web Development Bootcamp (2023) </summary>
+                <p class="milestone-description"> My career in programming and web development started at Coder Academy, where I undertook a full stack web development bootcamp. There I learned the foundations of web development and began building my first ever programming projects, which you can find on the 'My Projects' page.</p>
+                <div id="ca_docs">
+                <a class="navlink" href="./docs/aeo_ca_testamur.pdf"> Testamur </a>
+                <a class="navlink" href="./docs/aeo_ca_transcript.pdf"> Transcript </a>
+            </div>
+                  
+            </details>
+        </Article>
+
+        <Article>
+            <img class="career-icon" src="./docs/wicky.png" alt="Wicky">
+            <details>
+                <summary> Wicky - Junior Web Developer (2023-Present)</summary>
+                <p class="milestone-description"> Upon completion of my diploma at Coder Academy, I began a Industry Placement at Wicky, a sports data analytics company. Here I worked with other developers alongside other teams at the company to design, develop and deploy features for users. After completing my placement, I continued to work with Wicky on a casual basis to continue supporting their endeavours and growing my experience in web development.
+                </p>     
+            </details>
+        </Article>
+
+        <Article>
+            <img class="career-icon" src="./docs/keyboard.png" alt="Present">
             <details>
                 <summary>Current Path - Present</summary>
-                <p>And now, here we are. I’ve since begun honing my skills in web development, and see myself continuing down this path. Feel free to peruse some of my projects on Github, and feel free to contact me if you have any questions or would like to chat!
+                <p class="milestone-description">And now, here we are. I’ve since continued honing my skills in web development, and see myself continuing down this path. Feel free to peruse some of my projects on Github, and feel free to contact me if you have any questions or would like to chat!
                 </p>     
             </details>
         </Article>
     </section>
 
     <h2> My Resume: </h2>
-    <a id="resume" href="aeo-resume.pdf"><img src="icon.png" alt="Resume"></a>
+    <a id="resume" href="./docs/aeo-resume.pdf"><img id="resume" src="./docs/icon.png" alt="Resume"></a>
     </main> 
 
     
@@ -90,9 +112,9 @@
         <!-- Social Media -->
     <section id="socialmedia">
         <nav>
-            <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook" ></a>
-            <a href="https://github.com/ArdaEO14455"><img src="github.png" alt="Github" ></a>
-            <a href="https://www.linkedin.com/in/arda-oguz-03a26121b/"><img src="linkedin.png" alt="LinkedIn" ></a>
+            <a href="https://www.facebook.com"><img src="./docs/facebook.png" alt="Facebook" ></a>
+            <a href="https://github.com/ArdaEO14455"><img src="./docs/github.png" alt="Github" ></a>
+            <a href="https://www.linkedin.com/in/arda-oguz-03a26121b/"><img src="./docs/linkedin.png" alt="LinkedIn" ></a>
         </nav>
     </section>
 <!-- Footer -->
